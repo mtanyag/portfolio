@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Cabin|Pacifico&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+font-family: 'Cabin', sans-serif;
+font-size: 100%;
+font-weight: 300px;
+background:#878787;
+
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+    width: 80%;
+    float: left;
+    padding: 0 10%;
+    background-color:#CCCCCC;
+    position: fixed;
+    z-index: 10;
+}
+
+
+h1 {
+    color: #363636;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    background-position: center bottom;
+    background-size: 100px;
+    font-family: 'Pacifico', cursive;
+}
+
+ h2 {
+ color: #555555;
+ font-size: 25px;
+ font-weight: bold;
+ text-align: center;
+ font-family: 'Cabin', sans-serif;
+ }
+
+ article {
+ 	font-weight: 300;
+ 	line-height: 30px;
+ }
+
+ #logo {
+    width: 20%;
+    float: left;
+    font-size: 30px;
+    padding-top: 15px;
+    font-weight: 700;
+    color: #fff;
+	position: fixed;
+	
+}
+#logo a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav.full{
+	width: 100%;
+	z-index: 100;
+	
+}
+nav.full ul {
+	float: right;
+}
+
+.menu-btn {
+    visibility: hidden;
+    position: fixed;
+    font-size: 30px;
+    border: none;
+    padding: 0 10px;
+    z-index: 100;
+}
+
+nav.full {
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+}
+
+nav.full li {
+	display: inline-block;
+}
+
+nav.full li a {
+	display: table-cell;
+    height: 60px;
+    border-right: 1px solid #591d2330;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 25px #867267;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#home{
+
+	width: 100%;
+	float: left;
+	background-attachment: fixed;
+	background-size: 100%;
+	padding: 0%;
+	box-sizing: border-box;
+	margin-top: -60px;
+	min-height: 500px;
+}
+main{
+	position: absolute;
+	z-index: 10;
+	top: 30%;
+	width: 100%;
+}
+section {
+	float: left;
+	width: 100%;
+	padding: 100px 10%;
+	box-sizing: border-box;
+}
+
+
+
+#home h1 {
+    color: #f5f3f1;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+	margin: 10px 0px;
+	font-size: 180px;
+	font-family: 'Pacifico', cursive;
+	line-height: 100%;
+	background: none;
+	padding-bottom: 0px;
+	letter-spacing: -5px;
+	
+}
+
+#home h2 {
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 70%;
+	padding-top: 100px;
+	text-shadow: 2px 2px 2px #000;
+	
+	
+
+}
+
+#home h3 {
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	line-height: 80%;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#ourstory {
+	background-color: #fff;
+}
+
+#ourstory article{
+	width: 60%;
+	float: left;
+
+}
+
+#ourstory aside {
+	width: 40%;
+	float: right;
+}
+
+#ourstory aside img {
+	width: 100%;
+}
+
+#ourwedding {
+	background-color:#878787;
+	color: #fff;
+    padding-bottom: 0px;
+}
+
+.divider {
+	text-align: center;
+}
+
+#ourwedding img{
+	width: 100px;
+}
+
+#ourwedding h2{
+	color:#FFFFFF;
+}
+
+#ourwedding h1, #photos h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    background: url;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    background-position: center bottom;
+    background-size: 100px;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+#ourwedding article{
+	width: 50%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+section#rsvp {
+-webkit-clip-path: polygon(50% 63%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+clip-path: polygon(50% 63%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+    background: #fff;
+    padding-top: 500px;
+    height: 800px;
+}
+
+#rsvp h1 {
+    color:#000000;
+    position: relative;
+    z-index: 100;
+    margin: 30px 0 0;
+}
+
+#rsvp form {
+	width: 50%;
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#rsvp input {
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 10px 0;
+}
+
+.accept, .regret {
+	border: 2px solid #5C5C5C;
+	padding: 10px 20px;
+	color: #5C5C5C;
+}
+
+
+
+footer {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.gallery img {
+	width: 25%;
+	float: left;
+}
+
+.sticky{
+	background: #535353  !important;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.sticky a, .sticky #logo, .sticky nav.full{
+	
+	width: 100%;
+}
